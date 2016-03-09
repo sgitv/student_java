@@ -1,0 +1,28 @@
+<%-- 
+    Document   : Sdetails
+    Created on : Jun 13, 2015, 3:33:34 PM
+    Author     : mickey
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <form action="Sservlet">
+    <body>
+    <center>
+        <h2 align="center">Student Form</h2>
+        <table>
+            <tr><td>studentname</td><td><input type="text" name="pilli" required="name????"></td></tr>
+            <tr><td>Sage</td><td><input type="text" name="prani" required="AGE????"></td></tr>
+            <tr><td>Semail</td><td><input type="email" name="mohan" required="email???"></td></tr>
+            <tr><td>Address</td><td><input type="text" name="sid" required="address???"></td></tr>
+        <tr><td align="center" colspan="2"><input type="submit" value="register"></td></tr>
+        </table>
+    </center>
+    </body>
+</form>
+</html>

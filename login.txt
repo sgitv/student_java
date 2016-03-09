@@ -1,0 +1,24 @@
+<%-- 
+    Document   : Slogin
+    Created on : Jun 13, 2015, 3:55:25 PM
+    Author     : mickey
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>loginstudent</title>
+    </head>
+    <body>
+        <center>
+        <h2 align="center">Login Form</h2>
+        <table>
+            <tr><td>user name</td><td><input type="text" name="pilli" required></td></tr>
+            <tr><td>password</td><td><input type="password" name="prani" required></td></tr>
+        <tr><td align="center" colspan="2"><input type="submit" value="login"></td></tr>
+        </table>
+    </center>
+    </body>
+</html>
